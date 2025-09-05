@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>IFFinance</title>
+    <link rel="stylesheet" href="/iffinance/css/style.css"/>
+    <script>
+        /*
+        let nome = "Mateus" //pode ser alterado
+        const rua = "Avenida Rio G. do Sul" //não pode ser alterado
+        var idade = 38
+        */
+    </script>
+    <link rel="shortcut icon" href="/iffinance/img/logo_IF.png" type="shortcut">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper" style="height: 90px;">
+            <div class="flexrow" style="height: 90px;">
+                <img src="img/logo_IF.png">
+                <h1><span style="color:#5db148ff;">IF</span>Finance</h1>
+                <nav>
+                    <ul>
+                        <a href="#"><li>Home</li></a>
+                        <a href="contato.html"><li>Contato</li></a>
+                        <a href="quem-somos.html"><li>Quem Somos</li></a>
+                        <li><button onclick="openModal()">Adicionar</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="flexrow">
+            <main>
+                <div class="container">
+
+                    <div class="stock">
+
+                        <div class="head">
+                            <h1>APPL</h1>
+                            <h1>|</h1>
+                            <h1>NYSE</h1>
+                        </div>
+                        <div class="price">
+                            <h1> U$199.97</h1>
+                            <p> ~ U$180.97</p>
+                        </div>
+                        <p>Quantidade: 31</p>
+                        <div class="icon">
+                            <img src="img/arrow-up.svg" style="height: 40px;" alt="ícone de seta pra cima">
+                            <p>+ U$19.00</p>
+                        </div>
+                        <p>Nº de ativos: 10</p>
+                        <p>Posição: U$1999.70 </p>
+                    </div>
+
+                    <div class="stock">
+
+                        <div class="head" style="background-color: rgb(221, 61, 61);">
+                            <h1>APPL</h1>
+                            <h1>|</h1>
+                            <h1>Nasdaq</h1>
+                        </div>
+                        <div class="price" style="background-color: rgb(221, 61, 61);">
+                            <h1> U$175.97</h1>
+                            <p> ~ U$205.57</p>
+                        </div>
+                        <p>Quantidade: 90</p>
+                        <div class="icon">
+                            <img src="img/arrow-down.svg" style="height: 40px;" alt="ícone de seta pra cima">
+                            <p>- U$26.90</p>
+                        </div>
+                        <p>Nº de ativos: 3</p>
+                        <p>Posição: U$527.91 </p>
+                    </div>
+                    
+                    <div class="stock">
+
+                        <div class="head">
+                            <h1>APPL</h1>
+                            <h1>|</h1>
+                            <h1>NYSE</h1>
+                        </div>
+                        <div class="price">
+                            <h1> U$273.03</h1>
+                            <p> ~ U$150.50</p>
+                        </div>
+                        <p>Quantidade: 82</p>
+                        <div class="icon">
+                            <img src="img/arrow-up.svg" style="height: 40px;" alt="ícone de seta pra cima">
+                            <p>+ U$122.53</p>
+                        </div>
+                        <p>Nº de ativos: 13</p>
+                        <p>Posição: U$3.549.39 </p>
+                    </div>
+                    
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper" style="height: 120px;">
+            <h3>Mateus Fonseca</h3>
+        </div>
+    </footer>
+    <div class="modal">
+        <main>
+            <h1>Cadastrar Card</h1>
+            <form onsubmit="addTicker(event)">
+                <label>Ticker</label>
+                <input type="text" id="ticker" name="ticker">
+                <label>Bolsa</label>
+                <select name="bolsa" id="bolsa">
+                    <option value="Nasdaq">Nasdaq</option>
+                    <option value="NYSE">NYSE</option>
+                </select>
+                <label>Valor</label>
+                <input type="text" id="valor" name="valor">
+                <label>Ativos</label>
+                <input type="text" id="ativos" name="ativos">
+                <div class="botao">
+                    <button type="button" id="cancelar" onclick="closeModal()">Cancelar</button>
+                    <input type="submit" id="cadastrar" value="Cadastrar">
+                </div>
+            </form>
+        </main>  
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>

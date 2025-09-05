@@ -1,0 +1,79 @@
+header {
+    display: flex;
+    height: 90px;
+    background-color: grey;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header div {
+    width: 100px;
+    height: 70px;
+    background-color: black;
+}
+
+header nav {
+   width: 200px;
+   height: 70px;
+   background-color: black; 
+}
+
+footer {
+    display: flex;
+    height: 200px;
+    background-color: bisque;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 10px 0;
+}
+
+#hero {
+    justify-content: center;
+    gap: 20px;
+}
+
+#testimony {
+    justify-content: space-around;
+}
+
+#image-hero {
+    width: 100px;
+    height: 120px;
+}
+
+.text-hero {
+    width: 200px;
+    height: 40px;
+    margin: 15px 0;
+}
+
+.card {
+    width: 150px;
+    height: 180px;
+}
+
+footer nav {
+    width: 150px;
+    height: 180px;
+    background-color: black;
+ }
+
+ .social {
+    width: 150px;
+    height: 180px;
+ }
+
+ .social div {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+}
