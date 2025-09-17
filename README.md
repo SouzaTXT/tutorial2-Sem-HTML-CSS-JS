@@ -1,26 +1,37 @@
 # Tópicos Importantes
 
-
 ## HTML
+- Doctype html 5
 - Estrutura Básica do HTML
- -html, head, title, body
- -style
- - Tags de Texto: h1...h6, p
- - Destaque do Texto: b, i, span
- div (id e class)
-
-
+    - html, head, title, body
+- Tag Style
+- Tags de Texto: h1...h6, p
+- Destaque do Texto: b, i, span
+- div (id e class)
+- Form (input [text, hidden], select)
 
 ## CSS
 - Externo, Interno e In-line
-- Sintaxe do código CSS"
+- Sintaxe do código css
 - ID e Classes
-- Flexbox (display:flex e outros elementos) - https://flexboxfroggy.com/
+- Flexbox (display: flex e outros elementos) - https://flexboxfroggy.com/
 - seletores
+- margin e padding
+- medidas relatativas (% e vh e vw)
+- tipos de cores
+- font-family
+- position
+
+## JS
+- variáveis let, const e var
+- criação de funções
+- querySelector, getElementById, closest
+- event: event.target, event.preventDefault()
 
 ## Comandos Git
 
-- git -v (verifica a versâo do git)
-- git config --global user.name "Nome Usuário"
-- git config --global user.email "emailusuario@gmail.com"
+- git -v (verifica a versão do git)
+  // configura Nome e Email para realizar os commits
+- git config --global user.name "Renan Cavichi"
+- git config --global user.email "renancavichi@gmail.com"
 - git init (inicia o git em um projeto ou pasta)

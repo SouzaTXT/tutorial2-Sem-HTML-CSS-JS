@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="/img/logo_IF.png" type="shortcut">
     <title>Contato</title>
 </head>
@@ -14,15 +14,36 @@
                 <h1><span style="color:#5db148ff;">IF</span>Finance</h1>
                 <nav>
                     <ul>
-                        <a href="/index.html"><li>Home</li></a>
+                        <a href="index.html"><li>Home</li></a>
                         <a href="#"><li>Contato</li></a>
-                        <a href="/quem-somos.html"><li>Quem Somos</li></a>
+                        <a href="quem-somos.html"><li>Quem Somos</li></a>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main>
+        <h1>Contato</h1>
+
+         <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <label for="nome">Senha:</label>
+            <input type="password" id="pass" name="pass">
+            <br>
+            <input type="checkbox" id="news" name="news"> 
+            <label for="news">Deseja receber nossos emails de novidades?</label>
+            <br>
+            <label for="message">Mensagem:</label>
+            <br>
+            <textarea id="message" name="message"></textarea>
+            <p>Qual sua bolsa preferida</p>
+            <input type="radio" id="nyse" name="bolsa" value="NYSE"> <label for="nyse">NYSE</label><br> 
+            <input type="radio" id="Nasdaq" name="bolsa" value="Nasdaq"> <label for="Nasdaq">Nasdaq</label><br>
+            <input type="radio" id="B3" name="bolsa" value="B3"> <label for="B3">B3</label><br>
+            <input type="submit" value="Enviar">
+        </form>
 
     </main>
     <footer>
